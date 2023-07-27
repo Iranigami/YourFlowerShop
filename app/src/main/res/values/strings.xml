@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YourFlowerShop</string>
+    <string name="title_home">Главная</string>
+    <string name="title_sell">Продажа</string>
+    <string name="title_arrive">Прием</string>
+    <string name="title_writeoff">Списание</string>
+    <string name="ip">192.168.59.216</string>
+</resources>

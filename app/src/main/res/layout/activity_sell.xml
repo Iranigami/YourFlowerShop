@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skin">
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Добавить"
+        android:background="@color/pale_green"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Продажи"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/skin"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_above="@id/add_button"
+        android:layout_centerHorizontal="true"
+        android:background="@color/skin">
+        <ScrollView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@color/skin">
+            <LinearLayout
+                android:id="@+id/prod_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:background="@color/skin">
+
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</RelativeLayout>

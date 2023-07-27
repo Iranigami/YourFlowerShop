@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+    <activity
+        android:id="@+id/navigation_sell"
+        android:name="com.example.yourflowershop.SellActivity"
+        android:label="Продажа"
+        tools:layout="@layout/activity_sell"/>
+    <activity
+        android:id="@+id/navigation_arrive"
+        android:name="com.example.yourflowershop.ArriveActivity"
+        android:label="Прием"
+        tools:layout="@layout/activity_sell"/>
+    <activity
+        android:id="@+id/navigation_writeoff"
+        android:name="com.example.yourflowershop.WriteoffActivity"
+        android:label="Списание"
+        tools:layout="@layout/activity_sell"/>
+
+</navigation>
